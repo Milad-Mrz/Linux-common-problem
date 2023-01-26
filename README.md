@@ -17,5 +17,5 @@
 2. Extract the contents of the combined archive file using the appropriate tool: <br/>
 ``` unzip file.zip ```
 
-3. list installed packages by size: <br/>
+**3- How to list installed packages by size:** <br/>
 ``` dpkg-query -W --showformat='${Installed-Size}\t${Package}\n   ' | sort -nr ```
