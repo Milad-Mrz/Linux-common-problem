@@ -19,3 +19,7 @@
 
 **3- How to list installed packages by size:** <br/>
 ``` dpkg-query -W --showformat='${Installed-Size}\t${Package}\n   ' | sort -nr ```
+
+**4- How to list largest files by size:** <br/>
+```du -ah ~/ | grep -v '\s/[^.]*$' | sort -rh | head -50```
+
