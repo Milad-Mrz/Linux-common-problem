@@ -21,6 +21,8 @@
 ``` dpkg-query -W --showformat='${Installed-Size}\t${Package}\n   ' | sort -nr ```
 
 **4- How to list largest files by size:** <br/>
-- du -ah ```directory``` | grep -v '\s/[^.]*$' | sort -rh | head ```-number_of_files```
+- du -ah ```directory``` | grep -v '\s/[^.]*$' | sort -rh | head ```-number_of_files``` <br/>
+<br/>
+example: <br/>
   
 ```du -ah ~/ | grep -v '\s/[^.]*$' | sort -rh | head -50```
