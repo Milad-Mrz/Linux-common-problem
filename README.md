@@ -31,6 +31,5 @@
 
 **4- How to list largest files by size:** <br/>
 - du -ah ```directory``` | grep -v '\s/[^.]*$' | sort -rh | head ```-number_of_files``` <br/>
-<br/>
 example: <br/>
 ```du -ah ~/ | grep -v '\s/[^.]*$' | sort -rh | head -50```
