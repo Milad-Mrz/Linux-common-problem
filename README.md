@@ -6,6 +6,7 @@
 3. restart
 
 **Source Link:**  https://askubuntu.com/questions/1403817/i-cant-turn-on-bluetooth-in-ubuntu-22-04-lts
+<br/>
 
 **2- How to extract two-part archive files on linux**
 - Two-part archive files, or "split files", are archive files that have been split into multiple parts in order to make it easier to transfer them or to fit them onto removable media.
@@ -16,10 +17,11 @@
 
 2. Extract the contents of the combined archive file using the appropriate tool: <br/>
 ``` unzip file.zip ```
+<br/>
 
 **3- How to list installed packages by size:** <br/>
 ``` dpkg-query -W --showformat='${Installed-Size}\t${Package}\n   ' | sort -nr ```
-
+<br/>
 **4- How to list largest files by size:** <br/>
 - du -ah ```directory``` | grep -v '\s/[^.]*$' | sort -rh | head ```-number_of_files``` <br/>
 <br/>
